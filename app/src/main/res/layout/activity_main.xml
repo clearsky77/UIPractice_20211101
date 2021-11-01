@@ -17,5 +17,23 @@
         android:layout_height="wrap_content"
         android:hint="メールアドレス"
         android:inputType="textEmailAddress"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="パスワード"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="8文字以上入力"
+        android:inputType="textPassword"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="あだ名"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:hint="日本語入力可能"/>
 
 </LinearLayout>
