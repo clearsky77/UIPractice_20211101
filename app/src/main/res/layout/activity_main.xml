@@ -10,73 +10,89 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ID"/>
+        android:text="ID" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="メールアドレス"
-        android:inputType="textEmailAddress"/>
+        android:inputType="textEmailAddress" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="パスワード"/>
+        android:text="パスワード" />
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="8文字以上入力"
-        android:inputType="textPassword"/>
+        android:inputType="textPassword" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="あだ名"/>
+        android:text="あだ名" />
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:singleLine="true"
-        android:hint="日本語入力可能"/>
+        android:hint="日本語入力可能"
+        android:singleLine="true" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="性別"/>
+        android:text="性別" />
 
     <RadioGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="男性"/>
+            android:text="男性" />
+
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="女性"/>
+            android:text="女性" />
+
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="非公開"/>
+            android:text="非公開" />
     </RadioGroup>
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="利用規約に同意します。"
-        android:checked="true"/>
+        android:checked="true"
+        android:text="利用規約に同意します。" />
+
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="個人情報の提供に同意します。"/>
-    <ImageView
-        android:layout_width="130dp"
-        android:layout_height="130dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/logo_if_kakao"/>
+        android:text="個人情報の提供に同意します。" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logo_if_kakao" />
+    </LinearLayout>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAllCaps="false"
-        android:text="Sign up"/>
+        android:text="Sign up"
+        android:textAllCaps="false" />
 
 </LinearLayout>
