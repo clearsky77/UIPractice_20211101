@@ -35,6 +35,29 @@
         android:layout_height="wrap_content"
         android:singleLine="true"
         android:hint="日本語入力可能"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="性別"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="男性"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="女性"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="非公開"/>
+    </RadioGroup>
+
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
