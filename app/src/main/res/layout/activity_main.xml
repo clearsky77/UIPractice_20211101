@@ -35,6 +35,15 @@
         android:layout_height="wrap_content"
         android:singleLine="true"
         android:hint="日本語入力可能"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="利用規約に同意します。"
+        android:checked="true"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="個人情報の提供に同意します。"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
