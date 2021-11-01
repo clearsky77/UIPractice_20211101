@@ -35,5 +35,10 @@
         android:layout_height="wrap_content"
         android:singleLine="true"
         android:hint="日本語入力可能"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Sign up"/>
 
 </LinearLayout>
