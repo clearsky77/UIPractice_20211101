@@ -67,6 +67,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="個人情報の提供に同意します。"/>
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo_if_kakao"/>
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
